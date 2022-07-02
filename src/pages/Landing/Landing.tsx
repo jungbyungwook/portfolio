@@ -1,4 +1,4 @@
-import { Home, About } from "../../containers/";
+import { Home, About, Skills } from "../../containers/";
 
 type LandingProps = {
     // name: string;
@@ -9,6 +9,7 @@ export const Landing = (props: LandingProps) => {
         <div>
             <Home />
             <About />
+            <Skills />
         </div>
     );
 };
