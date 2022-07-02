@@ -1,5 +1,6 @@
-import { useState, useEffect } from "react";
-import { Wrapper, Title, Introduce } from "./About.style";
+import { Wrapper, Introduce } from "./About.style";
+import { Title } from "../../components";
+
 type AboutProps = {
     prop?: string;
     onClick?: (prop: string) => void;
@@ -8,7 +9,7 @@ type AboutProps = {
 export const About = ({ prop }: AboutProps) => {
     return (
         <Wrapper>
-            <Title>About me</Title>
+            <Title title="About me" />
             <Introduce>
                 안녕하세요 Web Developer 정병욱입니다.
                 <br />
