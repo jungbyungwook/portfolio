@@ -9,7 +9,7 @@ type AboutProps = {
 export const About = ({ prop }: AboutProps) => {
     return (
         <Wrapper>
-            <Title title="About me" />
+            <Title title="About" />
             <Introduce>
                 안녕하세요 Web Developer 정병욱입니다.
                 <br />
