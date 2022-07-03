@@ -10,7 +10,7 @@ export const Introduce = styled.div`
     text-align: center;
     line-height: 70px;
     @media (max-width: 874px) {
-        font-size: 22px;
+        font-size: 18px;
         line-height: 45px;
     }
 `;

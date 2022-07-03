@@ -10,6 +10,7 @@ export const ProjectWrapper = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 20px;
     }
 `;
 
@@ -22,7 +23,7 @@ export const ProjectBox = styled.a`
     /* cursor: pointer; */
 
     h1 {
-        font-size: 30px;
+        font-size: 26px;
         padding: 12px;
         color: black;
     }
@@ -36,6 +37,13 @@ export const ProjectBox = styled.a`
         }
     }
     @media (max-width: 880px) {
+        width: 90%;
+        height: 80%;
+        img {
+            width: 80%;
+            margin-bottom: 5%;
+        }
+
         h1 {
             font-size: 25px;
         }
