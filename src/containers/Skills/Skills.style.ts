@@ -11,7 +11,7 @@ export const SubTitle = styled.h1`
 export const SkillsWrapper = styled.div`
     display: flex;
     justify-content: center;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 
     img {
         width: 100px;
