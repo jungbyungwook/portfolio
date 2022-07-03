@@ -7,6 +7,10 @@ export const SubTitle = styled.h1`
     color: black;
     text-align: center;
     margin-bottom: 12px;
+    @media (max-width: 874px) {
+        font-size: 26px;
+        line-height: 45px;
+    }
 `;
 export const SkillsWrapper = styled.div`
     display: flex;

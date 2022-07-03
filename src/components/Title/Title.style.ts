@@ -7,6 +7,6 @@ export const Wrapper = styled.h1`
     color: black;
     text-align: center;
     @media (max-width: 874px) {
-        font-size: 45px;
+        font-size: 40px;
     }
 `;
