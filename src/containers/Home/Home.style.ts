@@ -1,6 +1,7 @@
 import styled from "styled-components";
 export const Wrapper = styled.div`
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -8,10 +9,14 @@ export const Wrapper = styled.div`
     background-color: black;
     width: 100vw;
     height: 100vh;
+
+    a {
+        font-size: 50px;
+    }
 `;
 
 export const Typing = styled.h1`
-    font-size: 60px;
+    font-size: 4.5vw;
     border-right: 2px solid #777;
     padding-right: 0.4rem;
     animation: cursor 0.9s infinite;
@@ -28,13 +33,14 @@ export const Typing = styled.h1`
         }
     }
 
-    @media (max-width: 874px) {
+    /* @media (max-width: 874px) {
         font-size: 24px;
-    }
+    } */
 `;
 
 export const Down = styled.a`
-    padding-top: 300px;
+    /* padding-top: 300px; */
+    cursor: pointer;
     span {
         margin-top: 50px;
         position: absolute;

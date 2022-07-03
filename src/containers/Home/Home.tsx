@@ -1,11 +1,13 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Wrapper, Typing, Down } from "./Home.style";
 type HomeProps = {
     prop?: string;
     onClick?: (prop: string) => void;
+    downClick: any;
 };
 
-export const Home = ({ prop }: HomeProps) => {
+export const Home = ({ prop, downClick }: HomeProps) => {
     const letter: string = "Web Developer JungByungwook";
     const [text, setText] = useState("");
     const [count, setCount] = useState(0);
@@ -24,7 +26,7 @@ export const Home = ({ prop }: HomeProps) => {
     return (
         <Wrapper>
             <Typing>{text}</Typing>
-            <Down>
+            <Down onClick={downClick}>
                 <span />
             </Down>
         </Wrapper>
