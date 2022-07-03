@@ -1,4 +1,5 @@
 import { Home, About, Skills, Project } from "../../containers/";
+import { Footer } from "../../components";
 import { useRef } from "react";
 import { Wrapper } from "./Landing.style";
 
@@ -22,6 +23,7 @@ export const Landing = (props: LandingProps) => {
             <About aboutRef={aboutRef} />
             <Skills />
             <Project />
+            <Footer />
         </Wrapper>
     );
 };
