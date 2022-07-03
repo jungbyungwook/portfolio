@@ -1,6 +1,7 @@
 import styled from "styled-components";
 export const Wrapper = styled.div`
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -8,6 +9,10 @@ export const Wrapper = styled.div`
     background-color: black;
     width: 100vw;
     height: 100vh;
+
+    a {
+        font-size: 50px;
+    }
 `;
 
 export const Typing = styled.h1`
@@ -34,7 +39,8 @@ export const Typing = styled.h1`
 `;
 
 export const Down = styled.a`
-    padding-top: 300px;
+    /* padding-top: 300px; */
+    cursor: pointer;
     span {
         margin-top: 50px;
         position: absolute;

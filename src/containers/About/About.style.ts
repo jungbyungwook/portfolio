@@ -1,6 +1,7 @@
 import styled from "styled-components";
 export const Wrapper = styled.div`
     margin-bottom: 150px;
+    padding-top: 50px;
 `;
 
 export const Introduce = styled.div`

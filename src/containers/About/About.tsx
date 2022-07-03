@@ -4,11 +4,12 @@ import { Title } from "../../components";
 type AboutProps = {
     prop?: string;
     onClick?: (prop: string) => void;
+    aboutRef?: any;
 };
 
-export const About = ({ prop }: AboutProps) => {
+export const About = ({ prop, aboutRef }: AboutProps) => {
     return (
-        <Wrapper>
+        <Wrapper ref={aboutRef}>
             <Title title="About" />
             <Introduce>
                 안녕하세요 Web Developer 정병욱입니다.
